@@ -1,0 +1,55 @@
+.auth-container {
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    z-index: 30;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .auth-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .auth-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    color: #28a745;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #email-input{
+  
+    overflow: hidden;
+  }
+  .otp-btn{
+   width: 100px;
+   position: absolute;
+   right: 20px;
+   top: 130px;
+   margin-bottom: 5px;
+   
+
+   /* height: 30px; */
+  }
